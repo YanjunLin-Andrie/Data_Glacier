@@ -1,0 +1,12 @@
+file_type: csv
+dataset_name: file
+file_name: transactions
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - t_dat
+    - customer_id
+    - price
+    - sales_channel_id
